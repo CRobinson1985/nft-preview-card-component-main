@@ -1,0 +1,108 @@
+body {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 16px;
+  background-color: hsl(217, 54%, 11%);
+  margin: 0;
+  padding: 0;
+  color: hsl(215, 51%, 70%);
+  
+}
+#main-div {
+  background-color: hsl(216, 50%, 16%);
+  padding: 8% 8% 5% 8% ;
+  margin: 16% 7% 16% 7%;
+  border-radius: 20px;
+}
+#equilibrium-img {
+  border-radius: 10px;
+  width: 100%
+}
+h3 {
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+}
+.attribution {
+  font-size: 11px; text-align: center; 
+}
+.attribution a {
+  color: hsl(228, 45%, 44%); 
+}
+#tag-div {
+  display: flex;
+  justify-content: space-between;
+}
+#eth-div {
+  
+  text-align: left;
+}
+#time-div {
+  
+  text-align: right;
+}
+.icons {
+  position: relative;
+  top: 3px;
+}
+#avatar-img {
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 12%;
+  margin-right: 6%;
+  
+}
+hr {
+  margin: 7%;
+  border: 1px solid hsl(215, 32%, 27%);
+}
+
+#jules-name {
+  color: hsl(0, 0%, 100%);
+}
+#creator-section {
+  display:flex;
+  align-items: center;
+  margin: 0;
+  padding-left: 3%;
+  
+
+}
+#eth-div {
+  color: hsl(178, 100%, 50%);
+}
+
+@media (orientation: landscape) and (min-width: 650px) {
+  #main-div {
+    width: 30vw;
+    margin: 10% auto ;
+  }
+
+}
+@media (orientation: landscape) and (min-width: 700px) {
+  #main-div {
+    width: 25vw;
+    margin: 10% auto ;
+    padding: 5%;
+    font-size: 12px;
+  }
+
+}
+@media (orientation: landscape) and (min-width: 900px) {
+  #main-div {
+    width: 20vw;
+    margin: 5% auto ;
+    padding: 3%;
+    font-size: 11px;
+  }
+
+}
+@media (orientation: portrait) and (min-width: 700px) {
+  #main-div {
+    width: 30vw;
+    margin: 10% auto ;
+    padding: 5%;
+    font-size: 12px;
+  }
+
+}
