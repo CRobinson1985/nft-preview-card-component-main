@@ -72,37 +72,44 @@ hr {
   color: hsl(178, 100%, 50%);
 }
 
-@media (orientation: landscape) and (min-width: 650px) {
+@media (max-width: 600px) {
   #main-div {
-    width: 30vw;
+    width: 70vw;
     margin: 10% auto ;
+    padding: 8% 8% 4% 8%;
+  }
+  
+}
+@media (min-width: 601px) {
+  #main-div {
+    width: 35vw;
+    margin: 10% auto ;
+    padding: 4% 4% 2% 4%;
+    font-size: 0.8em;
   }
 
 }
-@media (orientation: landscape) and (min-width: 700px) {
+@media (min-width: 768px) {
+  #main-div {
+    width: 40vw;
+    margin: 5% auto ;
+    padding: 4%;
+    font-size: 1.2em;
+  }
+
+}
+@media (min-width: 990px) {
+  #main-div {
+    width: 40vw;
+    font-size: 1.4em;
+  }
+
+}
+@media (min-width: 1200px) {
   #main-div {
     width: 25vw;
-    margin: 10% auto ;
-    padding: 5%;
-    font-size: 12px;
+    padding: 2.5%;
+    font-size: 1.2em;
+    margin-top: 3%;
   }
-
-}
-@media (orientation: landscape) and (min-width: 900px) {
-  #main-div {
-    width: 20vw;
-    margin: 5% auto ;
-    padding: 3%;
-    font-size: 11px;
-  }
-
-}
-@media (orientation: portrait) and (min-width: 700px) {
-  #main-div {
-    width: 30vw;
-    margin: 10% auto ;
-    padding: 5%;
-    font-size: 12px;
-  }
-
 }
