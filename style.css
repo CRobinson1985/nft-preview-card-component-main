@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Outfit;
+  src: url(/Fonts/Outfit-VariableFont_wght.ttf);
+} {
+  
+}
 * {
   box-sizing: border-box;
 }
